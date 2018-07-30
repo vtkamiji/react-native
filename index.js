@@ -14,8 +14,10 @@ import Header from './src/components/Header';
 import AlbumList from './src/components/AlbumList';
 //Create a component
 const App = () => {
+	//<View sytle={flex: 1}>: soluciona problema com
+	// ScrollView de nao ir ate o final da lista
 	return (
-		<View>
+		<View style={{flex: 1}}>
 			<Header headerText={'Album!!'}/>
 			<AlbumList />
 		</View>

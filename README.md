@@ -69,3 +69,22 @@ http://localhost:8081/debugger-ui
 
 **props.children
 	Utilizado para receber o q foi passado pelo componente pai entre as tags do elemento filho
+
+**FlexBox:
+	justifyContent:
+		->flex-start
+		->flex-end
+		->center
+		->space-between
+		->space-around
+	flexDirection:
+		->column(default)
+		->row
+
+**Component 
+	*<Image />
+		->precisa ser dimensionado para aparecer
+	*<View />
+	*<Text />
+	*<ScrollView />
+	*<TouchableOpacity />
